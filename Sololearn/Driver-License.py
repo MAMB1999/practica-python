@@ -1,22 +1,21 @@
 
-persona = "Zebediaj"
-empleado = 5
-llegados = "Bob jim becky Pat"
+persona = str(input("Por favor, ingresa tu nombre:\n>>"))
+empleado = int(input("Por favor,ingresa el numero de empleados.\n>>"))
+llegados = str(input("Por favor, ingresa el numero de llegados\n>>"))
 llegados = llegados.split(" ")
-llegados.append(persona)
+llegados.append(persona) 
 llegados = sorted(llegados)
 lista = []
-contador = 0
-for z in range(empleado):
+con,con2 = 0,0
+while con < len(llegados):
     lista.append([])
-    for x in range(empleado):
-        if contador >= len(llegados):
-           continue
-        else: 
-            lista[z].append(llegados[contador])
-            contador += 1
-
-for w in range(len(lista)):
-    for x in range(len(lista[w])):
-        if lista[w][x] == persona:
-            print(lista[w].index(persona)*20)
+    for z in range(empleado):
+        if len(llegados) > con:
+            lista[con2].append(llegados[con])
+            con +=1
+        else:
+            break        
+    con2 += 1
+for x in range(len(lista)):
+    if persona in lista[x]:
+        print((x+1)*20)
