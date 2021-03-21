@@ -7,3 +7,5 @@ if mo:
     print(f'Numero de telefono: {mo.group()}')
 else:
     print('Numero no encontrado.')
+
+#Segundo ejemplo
