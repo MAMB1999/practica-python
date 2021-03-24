@@ -1,0 +1,26 @@
+CONSEJOS PARA CREAR UN REPOSITORIO:
+README.md
+README.md es un archivo especial que recomendamos que contengan 
+todos los repositorios. GitHub busca este archivo y lo muestra de manera
+útil debajo del repositorio. El archivo README debe explicar el proyecto
+y señalar a los lectores información útil dentro del proyecto.
+
+CONTRIBUTING.md
+CONTRIBUTING.md es otro archivo especial que se utiliza para describir el
+ proceso de colaboración en el repositorio. El enlace al archivo CONTRIBUTING.md
+  se muestra cuando un usuario intenta crear un nuevo problema o una solicitud de extracción.
+
+ISSUE_TEMPLATE.md
+El ISSUE_TEMPLATE.md (y su gemelo, la plantilla de solicitud de extracción) se utilizan para generar
+texto de inicio con plantilla para los problemas de su proyecto. Cada vez que alguien
+abre un problema, el contenido de la plantilla se completará previamente en el cuerpo del problema.
+
+
+PAGINA GUIA DE COMANDOS GIT\GITHUB
+https://githubtraining.github.io/training-manual/#/05_local_git_configs
+
+
+COMANDOS GIT:
+status del branch: git status
+
+crear una copia local 
